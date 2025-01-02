@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="cz">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.00">
+      <title>ISC</title>
+
+      <!-- Připojení vlastního CSS souboru -->
+      <link rel="stylesheet" href="./styles/style.css">
+
+      <!-- Připojení Bootstrap ikon -->
+      <link rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+      <!-- Připojení Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+         crossorigin="anonymous">
+
+      <!-- Připojení Bootstrap JS -->
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+         crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <!-- Sekce s pozadím -->
+      <div class="p-0 m-0 pt-0" style="background-image: url('./img/background.jpg');background-repeat:round">
+         <div style="background-color: rgba(0, 0, 0, 0.5);">
+            <div
+               class="d-flex justify-content-center align-items-center flex-column">
+
+               <!-- Kontaktní sekce -->
+               <div class="col-xl-10 col-12 p-1 kontakty">
+                  <div class="row">
+                     <!-- Ikony kontaktů -->
+                     <div class="col-4 text-center">
+                        <a style="color:white" href="tel:720213242"><i class="bi bi-phone" style="font-size: 1rem;"></i></a>
+                     </div>
+                     <div class="col-4 text-center">
+                        <a style="color:white" href="https://shorturl.at/2teuv"><i class="bi-map" style="font-size: 1rem;"></i></a>
+                     </div>
+                     <div class="col-4 text-center">
+                        <a style="color:white" href="mailto:info@isc.cz"><i class="bi bi-envelope" style="font-size: 1rem;"></i>
+                     </div>
+                  </div>
+                  <div class="row d-md-flex d-none ">
+                     <!-- Detaily kontaktů -->
+                     <div class="col-4 text-center">
+                        <a style="color: white;text-decoration: none;"
+                           href="tel:720213242">+420 720 213 242</a>
+                     </div>
+                     <div class="col-4 text-center">
+                        <a style="color: white;text-decoration: none;"
+                           href="https://shorturl.at/2teuv">Teplice - Hudcov</a>
+                     </div>
+                     <div class="col-4 text-center">
+                        <a style="color: white;text-decoration: none;"
+                           href="mailto:info@isc.cz">info@isc.cz</a>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Sekce s názvem a navigace-->
+               <div class="col-xl-11 col-12 rounded-sm-0 rounded-1 p-1 bg-white">
+                  <h1 class="col-6 display-3 fw-bolder">ISC</h1>
+                  <h6 class="fs-5">Solární panely pro rodinné domy</h6>
+                  <hr>
+                  <button class="btn">Domů</button>
+                  <button class="btn">O nás</button>
+                  <button class="btn">Fotky</button>
+                  <button class="btn">Kontakt</button>
+               </div>
+               <div
+                  class="col-md-4 col-10 d-flex flex-column align-items-center">
+                  <h1 class="mt-5 fw-bold text-center text-white">Montáž
+                     solárních elektráren po celém <span
+                        style="color:#52c459">Ústeckém kraji</span> </h1>
+                  <h5 class=" text-center text-white">Zajišťujeme profesionální
+                     montáž solárních elektráren na rodinné domy</h5>
+               </div>
+               <div
+               class="d-flex col-5 col-lg-8 flex-lg-row mb-5 flex-column align-items-center justify-content-center ">
+               <button class="btn col-lg-2 col-12 mx-5 my-2  tlacitko fw-bolder"
+                  style="background-color: white;">Zjistit více</button>
+               <button
+                  class="btn col-lg-2  col-12 mx-5 my-2 tlacitko text-white fw-bolder "
+                  style="background-color: #52c459;">Kontaktovat</button>
+            </div>
+            </div>
+         </div>
+      </div>
+
+<!--Měnitelná část-->
+      <div class="m-5 text-center">
+         <h3 class="fw-bold">Aktuality</h3>
+         <h6>Tady se budou dávat nějaký aktuality takhle na kartách něco něco podbnýho, solidsun tam má třeba proč panely od nás, zatim jsem dal tohle</h6>
+      </div>
+      <div class="col-12  d-flex flex-wrap justify-content-evenly">
+         <div class="card m-5" style="width: 25rem;">
+            <img class="card-img-bottom" src="./img/pozadi.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Už 100 namontovaných elektráren</h5>
+              <p class="card-text">S dnešním dnem se nám povedlo zapojit již 100 domácností</p>
+              <a class="btn fw-bold bottom-0" href="#" style="background-color: #52c459; color: white;">Zjistit více</a>
+            </div>
+          </div>
+          <div class="card m-5" style="width: 25rem;">
+            <img class="card-img-bottom" src="./img/pozadi.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nová zelená úspora</h5>
+              <p class="card-text">Dotace až 300 000,</p>
+              <a class="btn fw-bold" href="#" style="background-color: #52c459; color: white;">Zjistit více</a>
+              
+            </div>
+          </div>
+          <div class="card m-5" style="width: 25rem;" style="width: 25rem;">
+            <img class="card-img-bottom" src="./img/pozadi.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nově montujeme i ve Středočeském kraji</h5>
+              <p class="card-text">Rozšiřujeme naši působnost o další kraj, zakázky začneme přijmat od jara</p>
+              <a class="btn fw-bold" href="#" style="background-color: #52c459; color: white;">Zjistit více</a>
+            </div>
+          </div>
+            </div>
+          </div>
+      </div>
+      <div class="w-100 text-center position-relative bottom-0  bottom-0">
+            <h6>Web vytvořil Vojtěch Just 2024 ®</h6>
+      </div>
+   </body>
+</html>
